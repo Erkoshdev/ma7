@@ -1,0 +1,2133 @@
+//xl
+@media (max-width: 1399px) {
+  .btn {
+    padding: 20px 65px;
+  }
+
+  .header {
+    padding: 20px 0 5px;
+    min-height: 70px;
+  }
+  .header-nav {
+    gap: 50px;
+  }
+
+  .poster {
+    margin-top: -70px;
+    padding-top: 70px;
+  }
+  .main-poster-title {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  .poster-cursor p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .main-poster:after {
+    width: 465px;
+    height: 511px;
+  }
+
+  .about-founder-content {
+    padding: 94px 515px 46px 0;
+  }
+  .section-logo {
+    width: 470px;
+  }
+  .section-title h2 {
+    font-size: 56px;
+    line-height: 61px;
+  }
+  .numbers-list {
+    padding: 120px 0 40px;
+  }
+  .number-item:nth-of-type(1) b {
+    font-size: 145px;
+  }
+  .number-item:nth-of-type(2) b {
+    font-size: 95px;
+    line-height: 100px;
+  }
+  .number-item:nth-of-type(3) b {
+    font-size: 165px;
+    line-height: 150px;
+  }
+  .number-item:nth-of-type(4) b {
+    font-size: 95px;
+    line-height: 120px;
+  }
+  .number-item span {
+    margin-top: 25px;
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .number-item:nth-of-type(4) {
+    margin: 10% 0 0 43%;
+  }
+  .startup-item {
+    height: 450px;
+  }
+  .startup-item h6 {
+    font-size: 26px;
+  }
+  .startup-item p {
+    font-size: 20px;
+  }
+
+  .angels-bg-text p {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .angels-item b {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .angels-item p {
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+  .community-caption {
+    width: 435px;
+  }
+  .community-title h2 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .community-title p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .community-media-item img {
+    height: 475px;
+  }
+
+  .stories-card {
+    width: 500px;
+  }
+  .stories-media {
+    height: 335px;
+  }
+  .stories-info small {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .stories-info span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .stories-title {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .stories-caption p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .pre-footer-content {
+    padding: 30px 0 350px;
+  }
+  .pre-footer-caption {
+    margin-top: 200px;
+  }
+
+  .footer-social, .footer-contact {
+    padding: 24px 0;
+  }
+  .footer-social-item {
+    font-size: 30px;
+  }
+  .footer-contact-item {
+    font-size: 20px;
+  }
+
+  .about-poster-title {
+    font-size: 70px;
+    line-height: 130%;
+  }
+  .about-poster-text {
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 130%;
+  }
+
+  .beginning-primary {
+    font-size: 26px;
+    line-height: 130%;
+  }
+  .beginning-secondary {
+    margin-top: 80px;
+    gap: 50px;
+  }
+  .beginning-secondary-item b {
+    font-size: 32px;
+    line-height: 130%;
+  }
+  .beginning-secondary-item p {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .about-title {
+    font-size: 50px;
+    line-height: 130%;
+  }
+  .charity-desc {
+    margin-bottom: 100px;
+  }
+  .charity-item p {
+    margin-top: 40px;
+  }
+  .charity-item+.charity-item {
+    margin-top: 90px;
+  }
+
+  .angel-poster {
+    padding-top: 0;
+  }
+  .angel-poster-title {
+    font-size: 80px;
+    line-height: 120%;
+  }
+  .angel-poster-bg-text p {
+    font-size: 29px;
+    line-height: 120%;
+  }
+
+  .collective-investment-title {
+    font-size: 55px;
+    line-height: 115%;
+    width: 750px;
+  }
+  .collective-investment-img {
+    width: calc(100% - 750px);
+  }
+
+  .selecting-members-item h5 {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  .selecting-members-item p {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .selecting-members-item {
+    min-height: 450px;
+  }
+
+  .angel-pre-footer-caption p {
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  .portfolio-poster-title {
+    font-size: 120px;
+    line-height: 115%;
+  }
+  .portfolio-poster-desc {
+    margin-top: 30px;
+  }
+
+
+  .portfolio-number {
+    height: 280px;
+  }
+  .portfolio-number-primary p {
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: 0;
+  }
+  .portfolio-number-primary small {
+    font-size: 14px;
+    line-height: 120%;
+    left: 10px;
+    top: -10px;
+  }
+  .portfolio-number-secondary {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  .portfolio-number-desc {
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .portfolio-numbers {
+    margin-top: -150px;
+  }
+
+  .community-poster-title {
+    font-size: 55px;
+    line-height: 120%;
+  }
+  .community-poster:after {
+    width: 465px;
+    height: 511px;
+  }
+}
+
+//lg
+@media (max-width: 1199px) {
+  .header-nav {
+    gap: 24px;
+  }
+  .main-poster-title {
+    font-size: 46px;
+    line-height: 52px;
+    top: calc(50% - 145px);
+  }
+  .main-poster:after {
+    width: 415px;
+    height: 456px;
+  }
+  .cursor {
+    width: 50px;
+    height: 50px;
+  }
+  .poster-cursor p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .scroll-bottom-btn {
+    padding: 10px 0;
+  }
+  .scroll-bottom-btn p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .confidence-content {
+    padding: 60px 0 150px;
+    max-width: 800px;
+  }
+  .confidence-content h5 {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .about-founder-content {
+    padding: 70px 380px 35px 0;
+  }
+  .about-founder-content .btn {
+    margin-top: 175px;
+  }
+  .section-title h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .section-title h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .companies-slider-wrapper {
+    margin-top: 60px;
+  }
+  .company-slider-next {
+    width: 75px;
+  }
+  .company-slide-caption {
+    margin-top: 15px;
+  }
+  .company-slide-caption b, .company-slide-caption p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .startup-item {
+    height: 400px;
+    padding: 18px 34px 18px 18px;
+  }
+  .startup-item img {
+    top: 18px;
+    right: 18px;
+    width: 60px;
+  }
+  .startup-item h6 {
+    padding-right: 50px;
+    font-size: 20px;
+  }
+  .startup-item p {
+    font-size: 18px;
+  }
+  .team-content {
+    padding: 50px 0 80px;
+  }
+  .team-content h2 {
+    font-size: 60px;
+    line-height: 64px;
+  }
+  .team-list {
+    gap: 35px;
+    margin-top: 45px;
+  }
+  .team-item img {
+    height: 250px;
+  }
+  .team-item strong {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .team-item p {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .angels .section-logo img {
+    width: 250px;
+  }
+  .angels-bg-text p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .angels-list {
+    gap: 40px;
+  }
+  .angels-item b {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .angels-item p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .angels-bottom {
+    margin-top: 35px;
+  }
+  .angels-bottom p {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  .btn {
+    padding: 16px 50px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .community-content {
+    padding: 80px 0;
+  }
+  .community-caption {
+    width: 380px;
+    padding: 60px 0 55px;
+  }
+  .community-logo img {
+    width: 220px;
+  }
+  .community-title {
+    margin-top: 24px;
+    h2 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 17px;
+      line-height: 24px;
+    }
+  }
+  .community-media-item:first-child {
+    margin-top: 45px;
+  }
+  .community-media-item img {
+    height: 382px;
+  }
+  .stories .section-logo img {
+    width: 220px;
+  }
+  .stories-slider-pagination {
+    margin-top: 25px;
+  }
+  .stories-slider {
+    margin-top: 40px;
+  }
+  .stories-card {
+    width: 425px;
+  }
+  .stories-media {
+    height: 290px;
+  }
+  .stories-info {
+    top: 18px;
+    left: 20px;
+  }
+  .stories-title {
+    left: 20px;
+    bottom: 18px;
+  }
+  .stories-title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .pre-footer-content {
+    padding: 30px 0 260px;
+  }
+  .cursor-blue {
+    width: 50px;
+    height: 50px;
+  }
+  .pre-footer-caption p {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .footer-social, .footer-contact {
+    padding: 18px 0;
+  }
+  .footer-social-item {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .footer-contact-item {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .footer-copyright {
+    padding: 8px 0 0;
+  }
+
+  .about-poster-text {
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+
+  .snapshot-left p {
+    font-size: 50px;
+    line-height: 120%;
+  }
+  .snapshot-right p {
+    font-size: 22px;
+    line-height: 130%;
+  }
+
+  .beginning {
+    padding-top: 60px;
+  }
+  .beginning-primary {
+    font-size: 24px;
+  }
+  .beginning-secondary {
+    margin-top: 60px;
+  }
+  .beginning-secondary-item b {
+    font-size: 26px;
+  }
+  .beginning-secondary-item p {
+    margin-top: 20px;
+    font-weight: 300;
+  }
+
+  .investing {
+    padding: 100px 0 70px;
+  }
+  .investing-desc {
+    font-size: 22px;
+    line-height: 130%;
+  }
+  .investing-desc:after {
+    width: 55px;
+    height: 60px;
+  }
+  .investing-step-number {
+    font-size: 26px;
+    line-height: 130%;
+  }
+  .investing-step-title {
+    font-size: 28px;
+    line-height: 120%;
+  }
+  .investing-step-desc {
+    font-size: 20px;
+    line-height: 130%;
+    font-weight: 300;
+  }
+  .investing-steps {
+    gap: 60px;
+  }
+
+  .charity {
+    padding: 80px 0 100px;
+  }
+  .about-title {
+    font-size: 40px;
+  }
+  .charity-desc {
+    font-size: 24px;
+    line-height: 130%;
+  }
+  .charity-item b {
+    font-size: 47px;
+    line-height: 120%;
+  }
+  .charity-item p {
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 130%;
+    font-weight: 300;
+  }
+
+  .collective-investment-title {
+    width: 670px;
+    font-size: 48px;
+  }
+  .collective-investment-img {
+    width: calc(100% - 670px);
+  }
+
+  .mission {
+    padding: 80px 0;
+  }
+  .mission-content p {
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 120%;
+    max-width: 800px;
+  }
+
+  .join {
+    padding: 80px 0 0;
+  }
+  .join-title {
+    font-size: 50px;
+    line-height: 120%;
+  }
+
+  .criterias {
+    padding-top: 80px;
+  }
+  .criterion-left {
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .criterion-right {
+    font-size: 40px;
+  }
+
+  .selecting-members-title {
+    font-size: 46px;
+    line-height: 120%;
+  }
+
+  .club-members-title {
+    font-size: 60px;
+  }
+
+  .angel-pre-footer-caption p {
+    font-size: 26px;
+  }
+
+  .portfolio-poster-content {
+    padding: 100px 0 50px;
+  }
+  .portfolio-poster-title {
+    font-size: 100px;
+  }
+  .portfolio-poster-desc {
+    font-size: 22px;
+    line-height: 130%;
+  }
+
+  .portfolio-number-primary p {
+    font-size: 50px;
+  }
+  .portfolio-number-primary small {
+    font-size: 12px;
+  }
+  .portfolio-number {
+    height: 230px;
+  }
+  .portfolio-numbers {
+    margin-top: -120px;
+  }
+
+  .portfolio-item {
+    height: 210px;
+  }
+
+  .event-card-date {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .event-card-img {
+    height: 235px;
+  }
+  .event-card-title {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .community-poster:after {
+    width: 415px;
+    height: 456px;
+  }
+  .community-poster-title {
+    font-size: 50px;
+    top: calc(50% - 100px);
+  }
+}
+
+//md
+@media (max-width: 991px) {
+  .header-logo img {
+    width: 150px;
+  }
+  .header-nav {
+    gap: 20px;
+  }
+  .header-nav-link {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .main-poster-title {
+    font-size: 36px;
+    line-height: 42px;
+    top: calc(50% - 115px);
+  }
+  .main-poster:after {
+    width: 320px;
+    height: 350px;
+  }
+  .cursor {
+    width: 40px;
+    height: 40px;
+  }
+  .poster-cursor p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .confidence-content {
+    padding: 50px 0 120px;
+  }
+  .confidence-content h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .about-founder-content {
+    padding: 60px 250px 30px 0;
+  }
+  .about-founder-content p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .about-founder-content p+p {
+    margin-top: 20px;
+  }
+  .about-founder-content .btn {
+    margin-top: 120px;
+  }
+  .section-logo {
+    width: 300px;
+  }
+  .section-title h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .companies-slider-wrapper {
+    margin-top: 40px;
+  }
+  .company-slider-next {
+    width: 60px;
+  }
+  .company-slide-caption b {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .company-slide-caption p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .numbers .section-logo img {
+    width: 170px;
+  }
+  .numbers-list {
+    padding: 80px 0 30px;
+  }
+  .number-item:nth-of-type(1) b {
+    font-size: 115px;
+    line-height: 120px;
+  }
+  .number-item span {
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .number-item:nth-of-type(2) {
+    margin-top: 0;
+    b {
+      font-size: 60px;
+      line-height: 65px;
+      letter-spacing: -1.5px;
+    }
+  }
+  .number-item:nth-of-type(3) {
+    margin: -180px 0 0 auto;
+    b {
+      font-size: 115px;
+      line-height: 120px;
+    }
+  }
+  .number-item:nth-of-type(4) {
+    margin: 0 0 0 43%;
+  }
+  .numbers-content {
+    padding: 0;
+  }
+  .startups-content {
+    padding: 60px 0;
+  }
+  .startups-list {
+    gap: 15px;
+  }
+  .startup-item {
+    padding: 16px 25px 16px 16px;
+    height: 300px;
+  }
+  .startup-item img {
+    width: 40px;
+    right: 15px;
+    top: 15px;
+  }
+  .startup-item h6 {
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .startup-item p {
+    font-size: 15px;
+  }
+  .team-content h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .team-list {
+    gap: 15px;
+  }
+  .team-item img {
+    height: 215px;
+  }
+  .team-item strong {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .angels .section-logo img {
+    width: 170px;
+  }
+  .angels-bg-text p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .angels-list {
+    gap: 30px;
+  }
+  .angels-item {
+    b {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    p {
+      margin-top: 7px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .angels-bottom {
+    margin-top: 30px;
+    p {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  .btn {
+    padding: 12px 40px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .community-content {
+    padding: 45px 0;
+  }
+  .community-caption {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .community-caption .btn {
+    margin-top: 120px;
+  }
+  .community-media {
+    grid-template-columns: 1fr;
+  }
+  .community-media-item:first-child {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .stories-card {
+    width: 335px;
+  }
+  .stories-media {
+    height: 230px;
+  }
+  .stories-info small {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .stories-info span {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .stories-title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .stories-caption p {
+    margin-top: 4px;
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .stories-caption a {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .cursor-blue {
+    width: 40px;
+    height: 40px;
+  }
+  .pre-footer-caption {
+    margin-top: 150px;
+  }
+  .pre-footer-caption p {
+    font-size: 34px;
+    line-height: 39px;
+  }
+  .footer-social-item {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .footer-contact-item {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .about-poster-title {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+  .about-poster-text {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .snapshot {
+    padding: 40px 0;
+  }
+  .snapshot-left span {
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .snapshot-left p {
+    font-size: 36px;
+  }
+  .snapshot-right {
+    padding-top: 24px;
+    gap: 20px;
+  }
+  .snapshot-right p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .beginning {
+    padding-top: 40px;
+  }
+  .about-title {
+    font-size: 32px;
+  }
+  .beginning-primary {
+    font-size: 18px;
+  }
+  .beginning-secondary {
+    margin-top: 40px;
+  }
+  .beginning-secondary-item b {
+    font-size: 20px;
+  }
+  .beginning-secondary-item p {
+    margin-top: 15px;
+    font-size: 17px;
+  }
+
+  .investing {
+    padding: 60px 0 30px;
+  }
+  .investing-desc {
+    font-size: 17px;
+  }
+  .investing-desc:after {
+    width: 45px;
+    height: 50px;
+  }
+  .investing-step-title {
+    font-size: 24px;
+    padding-right: 80px;
+  }
+  .investing-step-desc {
+    font-size: 16px;
+  }
+  .investing-steps {
+    gap: 40px;
+  }
+
+  .charity {
+    padding: 40px 0 60px;
+  }
+  .charity-desc {
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  .charity-item b {
+    font-size: 36px;
+  }
+  .charity-item p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .charity-item+.charity-item {
+    margin-top: 60px;
+  }
+
+  .angel-poster-title {
+    font-size: 60px;
+  }
+  .angel-poster-bg-text p {
+    font-size: 17px;
+    line-height: 160%;
+  }
+
+  .collective-investment-title {
+    width: 420px;
+    font-size: 36px;
+  }
+  .collective-investment-img {
+    width: calc(100% - 420px);
+  }
+
+  .mission-content p {
+    font-size: 26px;
+    max-width: 600px;
+  }
+
+  .join {
+    padding: 0;
+  }
+  .join-content {
+    padding-left: 35%;
+  }
+  .join-title {
+    font-size: 36px;
+  }
+  .join-item {
+    padding: 20px 0 35px;
+  }
+  .join-item-left {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .join-item-right {
+    width: 60%;
+    margin-left: auto;
+    font-size: 15px;
+  }
+
+  .criterion {
+    padding: 20px 0;
+  }
+  .criterion-left {
+    font-size: 30px;
+  }
+  .criterion-right {
+    font-size: 30px;
+  }
+  .criterias {
+    padding: 60px 0;
+  }
+
+  .selecting-members {
+    padding: 60px 0;
+  }
+  .selecting-members-title {
+    font-size: 36px;
+  }
+  .selecting-members-list {
+    gap: 15px;
+  }
+  .selecting-members-item span {
+    position: static;
+    order: 1;
+    padding: 0;
+    text-align: left;
+  }
+  .selecting-members-item h5 {
+    order: 2;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 20px;
+  }
+  .selecting-members-item p {
+    order: 3;
+    font-size: 16px;
+  }
+  .selecting-members-item {
+    min-height: 375px;
+  }
+
+  .club-members {
+    padding: 55px 0;
+  }
+  .club-members-title {
+    font-size: 45px;
+  }
+  .club-members-slider-wrapper {
+    margin-top: 30px;
+  }
+  .club-members-slider-next {
+    width: 60px;
+  }
+
+  .angel-pre-footer-caption p {
+    font-size: 20px;
+  }
+
+  .portfolio-numbers-list {
+    gap: 25px;
+  }
+  .portfolio-number {
+    padding: 15px 20px;
+  }
+  .portfolio-number-primary {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .portfolio-number-primary p {
+    font-size: 40px;
+  }
+  .portfolio-number-primary small {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 80px;
+  }
+  .portfolio-number-secondary {
+    font-size: 20px;
+  }
+  .portfolio-number-desc {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  .portfolio {
+    padding: 60px 0;
+  }
+  .portfolio-item {
+    height: 160px;
+  }
+
+  .community-poster:after {
+    width: 320px;
+    height: 350px;
+  }
+  .community-poster-title {
+    font-size: 36px;
+  }
+
+  .events-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+//sm
+@media (max-width: 767px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    padding: 15px 0;
+    min-height: 64px;
+  }
+  .header-logo img {
+    width: 188px;
+  }
+  .mobile-menu {
+    position: fixed;
+    left: 0;
+    top: 64px;
+    width: 100%;
+    height: calc(100% - 64px);
+    overflow-y: auto;
+    background: #002B55;
+    padding: 40px 16px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mobile-menu.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  header.bg-blue {
+    background: #002B55;
+  }
+  .toggle-mobile-menu {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    position: relative;
+    border: none;
+    background: transparent;
+  }
+  .toggle-mobile-menu:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../img/icon/burger.svg") no-repeat center/contain;
+    width: 20px;
+    height: 20px;
+  }
+  .toggle-mobile-menu.active:before {
+    background: url("../img/icon/close.svg") no-repeat center/contain;
+  }
+  .header-nav {
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #FFF;
+  }
+  .header-nav-link {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 140%; /* 28px */
+    position: relative;
+  }
+  .visible-sm {
+    display: flex;
+  }
+  .header-social {
+    padding: 24px 0;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #FFF;
+  }
+  .header-social-link {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 180% */
+  }
+  .header-contact {
+    padding: 24px 0;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #FFF;
+  }
+  .header-contact-link {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+
+  .poster {
+    margin-top: -64px;
+    padding-top: 64px;
+    height: initial;
+    min-height: initial;
+    max-height: initial;
+  }
+  .main-poster {
+    padding-bottom: 0;
+    background: url("../img/main/mountain-sm.png") no-repeat center/cover;
+  }
+  .main-poster-content {
+    padding: 70px 0 40px;
+  }
+  .main-poster-title {
+    position: static;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 108%;
+  }
+  .main-poster:after {
+    content: none;
+  }
+  .poster-bottom {
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+  }
+  .poster-left {
+    width: 100%;
+  }
+  .poster-cursor p {
+    margin-top: 32px;
+  }
+  .poster-right {
+    width: 100%;
+  }
+  .scroll-bottom-btn {
+    padding: 13px 0;
+    min-height: 67px;
+    gap: 16px;
+  }
+  .scroll-bottom-btn p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .confidence-content {
+    padding: 40px 0 80px;
+  }
+  .confidence-content h5 {
+    font-size: 18px;
+    line-height: 123%; /* 22.14px */
+    margin-top: 40px;
+  }
+  .confidence-content h5 + h5 {
+    margin-top: 25px;
+  }
+
+  .about-founder {
+    background-position: 55% center;
+  }
+  .about-founder-content {
+    padding: 40px 114px 80px 0;
+  }
+  .about-founder-content p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 150%; /* 24px */
+  }
+  .about-founder-content b {
+    margin-top: 59px;
+    font-size: 14px;
+  }
+  .about-founder-content span {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .about-founder-content .btn {
+    display: none;
+  }
+
+  .companies {
+    padding: 40px 0;
+  }
+  .section-header {
+    flex-direction: column;
+  }
+  .section-title h3 {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.2px;
+  }
+  .section-title h2 {
+    margin-top: 4px;
+    font-size: 32px;
+    line-height: 117%; /* 37.44px */
+  }
+  .companies-slider-wrapper {
+    margin-top: 80px;
+    padding: 0 16px;
+  }
+  .company-slider-next {
+    display: none;
+  }
+  .companies-slider .swiper-wrapper {
+    flex-direction: column;
+    height: fit-content;
+    gap: 24px;
+  }
+  .companies-slider {
+    width: 100%;
+  }
+  .company-slide-caption {
+    margin-top: 20px;
+  }
+  .company-slide-caption b {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+  .company-slide:not(:nth-of-type(1), :nth-of-type(2), :nth-of-type(3)) {
+    display: none;
+  }
+  .companies-slider.show-all .company-slide {
+    display: block;
+  }
+  .show-more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 30px;
+    width: 100%;
+    min-height: 50px;
+    gap: 12px;
+    background: var(--1c, #62B6F3);
+    border: none;
+    span {
+      color: var(--openai-com-nero, #FFF);
+      display: block;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 18px */
+    }
+    i {
+      width: 7px;
+      height: 12px;
+    }
+  }
+  .companies-show-more {
+    margin-top: 30px;
+  }
+
+  .numbers-content {
+    padding: 40px 0;
+  }
+  .numbers .section-header {
+    gap: 40px;
+  }
+  .numbers .section-logo img {
+    width: 188px;
+  }
+  .numbers-list {
+    padding: 0;
+    margin: 40px -16px 0;
+    gap: 40px;
+    align-items: center;
+    background-size: cover;
+  }
+  .number-item {
+    margin: 0!important;
+    width: 100%;
+  }
+  .number-item b {
+    font-size: 132px!important;
+    font-weight: 400!important;
+    line-height: 132px!important; /* 100% */
+    letter-spacing: -4.5px!important;
+  }
+  .number-item span {
+    font-size: 18px!important;
+    font-weight: 400!important;
+    line-height: 36px!important; /* 200% */
+    margin-top: 0!important;
+  }
+  .number-item span br {
+    display: none;
+  }
+
+  .startups-content {
+    padding: 40px 0;
+  }
+  .startups .section-title {
+    padding-left: 0;
+  }
+  .startups-list {
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .startup-item {
+    padding: 20px;
+    height: initial;
+  }
+  .startup-item img {
+    position: static;
+    order: 1;
+    width: 55px;
+  }
+  .startup-item h6 {
+    order: 2;
+    margin-top: 24px;
+    font-size: 32px;
+    padding-right: 0;
+  }
+  .startup-item p {
+    order: 3;
+    margin-top: 120px;
+    font-size: 20px;
+  }
+
+  .team-content {
+    padding: 40px 0;
+  }
+  .team-content h2 {
+    padding-left: 0;
+    font-size: 32px;
+    line-height: 117%; /* 37.44px */
+  }
+  .team-list {
+    margin-top: 24px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .team-item:nth-child(even) {
+    margin-top: 0;
+  }
+  .team-item img {
+    width: 100%;
+    height: 400px;
+  }
+  .team-item strong {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 120%; /* 24px */
+  }
+  .team-item p {
+    text-align: center;
+  }
+
+  .angels-content {
+    padding: 40px 0 24px;
+  }
+  .angels-bg img {
+    display: none;
+  }
+  .angels-bg img.angels-bg-img-sm {
+    display: block;
+  }
+  .angels-bg-text {
+    top: 14%;
+  }
+  .angels-bg-text .container {
+    flex-direction: column;
+    gap: 120px;
+  }
+  .angels-bg-text p {
+    font-size: 32px;
+    line-height: 130%; /* 41.6px */
+  }
+  .angels .section-logo img {
+    width: 215px;
+    display: block;
+    margin: 0 auto;
+  }
+  .section-logo {
+    width: 100%;
+  }
+  .angels-list {
+    grid-template-columns: 1fr;
+  }
+  .angels-item b {
+    font-size: 24px;
+    line-height: normal;
+  }
+  .angels-item p {
+    font-size: 17px;
+    line-height: 135%; /* 22.95px */
+  }
+  .angels-bottom {
+    margin-top: 68px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .angels-bottom p {
+    font-size: 30px;
+    line-height: 117%; /* 35.1px */
+    font-weight: 200;
+  }
+  .angels-bottom .btn {
+    width: 100%;
+    margin-top: 24px;
+  }
+  .btn {
+    min-height: 80px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .community-content {
+    padding: 40px 0;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .community-caption {
+    width: 100%;
+    padding: 0;
+  }
+  .community-logo img {
+    width: 202px;
+  }
+  .community-title {
+    margin-top: 32px;
+  }
+  .community-title h2 {
+    font-size: 60px;
+    line-height: 110%; /* 66px */
+  }
+  .community-title p {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 140%; /* 28px */
+  }
+  .community-caption .btn {
+    margin-top: 60px;
+  }
+  .community-media-item img {
+    height: 400px;
+  }
+  .community-media-item p {
+    font-size: 18px;
+  }
+  .community-media-item:first-child {
+    margin-bottom: 8px;
+  }
+
+  .stories {
+    padding: 40px 0;
+  }
+  .stories .section-logo img {
+    width: 188px;
+  }
+  .stories .section-header {
+    gap: 40px;
+  }
+  .stories-slider-pagination {
+    text-align: left;
+  }
+  .stories-media {
+    height: 240px;
+  }
+  .stories-info {
+    top: 16px;
+    height: 16px;
+  }
+  .stories-info small {
+    font-size: 14px;
+  }
+  .stories-info span {
+    font-size: 20px;
+  }
+  .stories-title {
+    left: 16px;
+    bottom: 16px;
+    font-size: 32px;
+    line-height: 110%; /* 35.2px */
+  }
+  .stories-caption small {
+    font-size: 14px;
+    line-height: 14.91px; /* 106.5% */
+  }
+  .stories-caption p {
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 30.49px; /* 138.591% */
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+  .stories-slider {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .stories-card {
+    margin-top: 40px!important;
+  }
+
+
+  .pre-footer-content {
+    padding: 40px 0;
+  }
+  .cursor-blue {
+    width: 56px;
+    height: 56px;
+  }
+  .pre-footer-caption {
+    margin-top: 40px;
+    display: block;
+  }
+  .pre-footer-caption p {
+    font-size: 48px;
+    line-height: 112%;
+  }
+  .pre-footer-caption .btn {
+    margin-top: 200px;
+    width: 100%;
+  }
+
+  footer {
+    padding: 40px 0;
+  }
+  .footer-social, .footer-contact {
+    padding: 32px 0;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .footer-social-item {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px; /* 150% */
+  }
+  .footer-contact-item {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px; /* 120% */
+  }
+  .footer-copyright {
+    padding: 24px 0 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-poster-content {
+    padding: 240px 0 32px;
+    flex-direction: column;
+  }
+  .about-poster-subtitle {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .about-poster-title {
+    font-size: 56px;
+    margin-top: 0;
+    line-height: normal;
+  }
+  .about-poster-text {
+    margin-top: 16px;
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .about-poster {
+    background-image: url("../img/main/about-poster-sm.png");
+  }
+
+  .snapshot-content {
+    flex-direction: column;
+  }
+  .snapshot-left {
+    width: 100%;
+  }
+  .snapshot-left span {
+    font-size: 16px;
+  }
+  .snapshot-left p {
+    font-size: 48px;
+    margin-top: 8px;
+  }
+  .snapshot-right {
+    padding-top: 40px;
+    width: 100%;
+  }
+  .snapshot-right p {
+    font-size: 20px;
+  }
+
+  .about-title {
+    font-size: 48px;
+    line-height: 110%; /* 52.8px */
+  }
+  .beginning-primary {
+    font-size: 20px;
+  }
+  .beginning-secondary {
+    padding-left: 0;
+    gap: 40px;
+  }
+  .beginning-secondary-item b {
+    font-size: 28px;
+  }
+
+  .investing {
+    padding: 40px 0;
+  }
+  .investing-desc {
+    font-size: 20px;
+    padding-right: 74px;
+  }
+  .investing-step-caption {
+    flex-direction: column;
+  }
+  .investing-step-title {
+    width: 100%;
+    padding-right: 0;
+    font-size: 28px;
+  }
+  .investing-step-desc {
+    margin-top: 16px;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .charity {
+    padding: 40px 0;
+  }
+  .charity-content {
+    flex-direction: column;
+  }
+  .charity-left {
+    width: 100%;
+  }
+  .charity-right {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .charity-desc {
+    margin-bottom: 40px;
+  }
+  .charity-item b {
+    font-size: 28px;
+  }
+  .charity-item p {
+    font-size: 18px;
+    margin-top: 16px;
+  }
+  .charity-item+.charity-item {
+    margin-top: 40px;
+  }
+
+  .angel-poster {
+    padding-top: 0;
+    height: 800px;
+  }
+  .angel-poster-caption .container {
+    padding: 72px 16px 40px;
+  }
+  .angel-poster-title {
+    font-size: 24px;
+    line-height: 130%; /* 31.2px */
+  }
+  .angel-poster-bg img {
+    display: none;
+  }
+  .angel-poster-bg img.angel-poster-bg-sm {
+    display: block;
+    height: auto;
+  }
+  .angel-poster-bg-text {
+    top: 22%;
+  }
+  .angel-poster-bg-text .container {
+    flex-direction: column;
+    gap: 112px;
+  }
+  .angel-poster-bg-text p {
+    font-size: 32px;
+    line-height: 130%; /* 41.6px */
+  }
+
+  .collective-investment-content {
+    padding: 40px 0;
+    flex-direction: column;
+  }
+  .collective-investment-title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 112%; /* 35.84px */
+    text-align: center;
+  }
+  .collective-investment-img {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .mission {
+    padding: 40px 0;
+  }
+  .mission-content b {
+    font-size: 16px;
+  }
+  .mission-content p {
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 120%; /* 24px */
+  }
+
+  .join-content {
+    padding: 40px 0;
+  }
+  .join-title {
+    font-size: 32px;
+  }
+  .join-list {
+    margin-top: 40px;
+    gap: 0;
+  }
+  .join-item {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .join-item-left {
+    width: 100%;
+    font-size: 24px;
+    line-height: 120%; /* 28.8px */
+  }
+  .join-item-left br {
+    display: none;
+  }
+  .join-item-right {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 140%; /* 22.4px */
+  }
+
+  .criterias {
+    padding: 40px 0;
+  }
+  .criterias-title {
+    font-size: 16px;
+    line-height: 140%; /* 22.4px */
+  }
+  .criterias-list {
+    margin-top: 20px;
+  }
+  .criterion {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .criterion-left {
+    font-size: 16px;
+    line-height: 140%; /* 22.4px */
+    order: 2;
+  }
+  .criterion-left br {
+    display: none;
+  }
+  .criterion-right {
+    text-align: left;
+    font-size: 24px;
+    line-height: 120%; /* 28.8px */
+    order: 1;
+  }
+
+  .selecting-members {
+    padding: 40px 0;
+  }
+  .selecting-members-title {
+    font-size: 32px;
+    line-height: 117%; /* 37.44px */
+  }
+  .selecting-members-list {
+    margin-top: 40px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .selecting-members-item {
+    padding: 20px;
+    min-height: 400px;
+  }
+  .selecting-members-item span {
+    font-size: 32px;
+    line-height: 125%; /* 40px */
+  }
+  .selecting-members-item h5 {
+    margin-top: 24px;
+    font-size: 32px;
+    line-height: 125%; /* 40px */
+  }
+  .selecting-members-item p {
+    font-size: 20px;
+    line-height: 120%; /* 24px */
+  }
+
+  .club-members {
+    padding: 40px 0;
+  }
+  .club-members-title {
+    font-size: 32px;
+    line-height: 117%; /* 37.44px */
+  }
+  .club-members-slider-next {
+    display: none;
+  }
+  .club-members-slider {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .club-members-slider .swiper-wrapper {
+    flex-direction: column;
+    gap: 24px;
+    height: fit-content;
+  }
+  .club-members-slide-caption {
+    margin-top: 16px;
+  }
+  .club-members-slide-caption b {
+    font-size: 20px;
+    line-height: 120%; /* 24px */
+  }
+  .club-members-slide-caption p {
+    font-size: 16px;
+    line-height: 120%; /* 19.2px */
+    margin-top: 6px;
+  }
+  .club-members-slide:not(:nth-of-type(1),:nth-of-type(2),:nth-of-type(3)) {
+    display: none;
+  }
+  .club-members-show-more {
+    margin-top: 30px;
+  }
+  .club-members-slider.show-all .club-members-slide {
+    display: block;
+  }
+
+  .angel-pre-footer-content {
+    padding-top: 40px;
+  }
+  .angel-pre-footer .section-logo img {
+    width: 188px;
+  }
+  .angel-pre-footer-bg img {
+    display: none;
+  }
+  .angel-pre-footer-bg img.angel-pre-footer-bg-sm {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+  .angel-pre-footer-bg {
+    height: 576px;
+  }
+  .angel-pre-footer-caption .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 140px;
+  }
+  .angel-pre-footer-caption p {
+    font-size: 25px;
+    line-height: 130%;
+  }
+  .angel-pre-footer-caption .btn {
+    width: 100%;
+  }
+  .angel-pre-footer-caption {
+    top: 31%;
+  }
+
+  .portfolio-poster-content {
+    padding: 185px 0;
+  }
+  .portfolio-poster-title {
+    font-size: 56px;
+  }
+  .portfolio-poster-desc {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 140%;
+  }
+
+  .portfolio-numbers {
+    margin: 0;
+    padding: 16px 0;
+  }
+  .portfolio-numbers-list {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .portfolio-number {
+    padding: 20px;
+    height: 300px;
+  }
+  .portfolio-number-primary {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: initial;
+  }
+  .portfolio-number-primary p {
+    font-size: 80px;
+    line-height: 80px; /* 100% */
+    letter-spacing: -5.6px;
+  }
+  .portfolio-number-primary small {
+    position: relative;
+    transform: none;
+    left: 20px;
+  }
+  .portfolio-number-secondary {
+    font-size: 32px;
+  }
+  .portfolio-number-desc {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .portfolio {
+    padding: 40px 0;
+  }
+  .portfolio-tools {
+    padding: 0 0 24px;
+  }
+  .portfolio-tools-item {
+    gap: 16px;
+  }
+  .portfolio-tools-item .nav-tabs {
+    gap: 24px;
+  }
+  .portfolio-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 16px;
+  }
+  .portfolio-item {
+    height: 128px;
+  }
+  .portfolio-item-logo {
+    max-width: calc(100% - 30px);
+  }
+
+  .community-poster:after {
+    content: none;
+  }
+  .community-poster-content {
+    padding-top: 133px;
+  }
+  .community-poster-title {
+    position: static;
+    font-size: 44px;
+  }
+
+  .events {
+    padding: 24px 0;
+  }
+  .events-list {
+    margin-top: 24px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .event-card-date {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .event-card-img {
+    height: 330px;
+  }
+  .event-card-title {
+    font-size: 24px;
+  }
+  .events-bottom {
+    margin-top: 24px;
+    padding-top: 24px;
+    flex-wrap: wrap;
+  }
+  .events-next-page {
+    margin-left: auto;
+  }
+  .events-pagination {
+    margin-left: 0;
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1380px;
+  }
+}
