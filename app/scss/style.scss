@@ -41,7 +41,6 @@ header.light {
 .visible-sm {
   display: none;
 }
-
 //header end
 
 
@@ -59,6 +58,7 @@ footer {
     font-size: 36px;
     font-weight: 700;
     line-height: 36px; /* 100% */
+    width: fit-content;
   }
 }
 .footer-contact {
@@ -71,6 +71,7 @@ footer {
     font-size: 24px;
     font-weight: 400;
     line-height: 24px; /* 100% */
+    width: fit-content;
   }
 }
 .footer-copyright {
@@ -115,16 +116,27 @@ footer.light-blue {
   background: url("../img/main/mountain.png") no-repeat center/cover;
   position: relative;
   padding-bottom: 54px;
-  &:after {
-    content: '';
-    background: url("../img/main/logo-light-blue-md.svg") no-repeat center/contain;
-    width: 535px;
-    height: 589px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+}
+
+.animation-bg {
+  animation-delay: 1s;
+  animation: shrinkBackground 1s forwards;
+}
+@keyframes shrinkBackground {
+  0% {
+    transform: scale(1.1);
   }
+  100% {
+    transform: scale(1);
+  }
+}
+.main-poster-after {
+  width: 535px;
+  height: 589px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .main-poster-content {
   position: relative;
@@ -585,6 +597,13 @@ footer.light-blue {
   height: auto;
   object-fit: cover;
 }
+.angels-bg.scroll-block img {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+.angels-bg.scroll-block.middle-screen img {
+  transform: scale(1);
+}
 .angels-bg-img-sm {
   display: none;
 }
@@ -761,6 +780,32 @@ footer.light-blue {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: 0.3s ease;
+}
+.stories-media:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(98, 182, 243, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+  z-index: 1;
+}
+.stories-card:hover {
+  .stories-img {
+    transform: scale(1.07);
+  }
+  .stories-media:before {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.stories-card a {
+  z-index: 2;
 }
 .stories-info {
   position: absolute;
@@ -850,6 +895,13 @@ footer.light-blue {
 
 .pre-footer {
   background: url("../img/main/idea.png") no-repeat center/cover;
+}
+.scroll-block {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+.scroll-block.middle-screen {
+  transform: scale(1);
 }
 .pre-footer-content {
   padding: 58px 0 513px;
@@ -1705,9 +1757,7 @@ hr {
     font-weight: 400;
   }
 }
-.community-poster:after {
-  content: "";
-  background: url('../img/main/logo-light-blue-md.svg') no-repeat center / contain;
+.community-poster-after {
   width: 535px;
   height: 589px;
   position: absolute;
@@ -1769,8 +1819,40 @@ hr {
 .event-card-img {
   height: 330px;
   width: 100%;
-  object-fit: cover;
   margin: 8px 0;
+  position: relative;
+  overflow: hidden;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s ease;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(98, 182, 243, .15);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease;
+    z-index: 1;
+  }
+}
+.event-card:hover {
+  .event-card-img img {
+    transform: scale(1.03);
+  }
+  .event-card-img:before {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+.event-card a {
+  z-index: 1;
 }
 .event-card-title {
   color: #FFF;

@@ -150,6 +150,18 @@ button {
     text-decoration-line: underline;
   }
 }
+.btn-blue-black {
+  border: 2px solid #62B6F3;
+  background: #62B6F3;
+  color: #002B55;
+  text-decoration-line: underline;
+  &:hover, &:active {
+    border: 2px solid #62B6F3!important;
+    background: #62B6F3!important;
+    color: #002B55!important;
+    text-decoration-line: underline;
+  }
+}
 
 
 //inputs
@@ -192,7 +204,7 @@ button {
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(60px);
   }
   100% {
     opacity: 1;
@@ -274,11 +286,21 @@ button {
   animation-delay: 0.4s;
 }
 .animated.animationDelayMed {
-  animation-delay: 1.2s;
+  animation-delay: 0.8s;
 }
 .animated.animationDelayLong {
+  animation-delay: 1.2s;
+}
+.animated.animationDelayLonger {
   animation-delay: 1.6s;
 }
+.animated.animationDelayLongest {
+  animation-delay: 2.4s;
+}
+.animated.animationDurationMd {
+  animation-duration: 2s;
+}
+
 .animated.fadeBgColor {
   animation-name: fadeBgColor;
 }

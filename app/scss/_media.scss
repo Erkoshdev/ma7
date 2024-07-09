@@ -24,7 +24,7 @@
     font-size: 30px;
     line-height: 35px;
   }
-  .main-poster:after {
+  .main-poster-after {
     width: 465px;
     height: 511px;
   }
@@ -261,7 +261,7 @@
     font-size: 55px;
     line-height: 120%;
   }
-  .community-poster:after {
+  .community-poster-after {
     width: 465px;
     height: 511px;
   }
@@ -277,7 +277,7 @@
     line-height: 52px;
     top: calc(50% - 145px);
   }
-  .main-poster:after {
+  .main-poster-after {
     width: 415px;
     height: 456px;
   }
@@ -654,7 +654,7 @@
     line-height: 120%;
   }
 
-  .community-poster:after {
+  .community-poster-after {
     width: 415px;
     height: 456px;
   }
@@ -682,7 +682,7 @@
     line-height: 42px;
     top: calc(50% - 115px);
   }
-  .main-poster:after {
+  .main-poster-after {
     width: 320px;
     height: 350px;
   }
@@ -1132,7 +1132,7 @@
     height: 160px;
   }
 
-  .community-poster:after {
+  .community-poster-after {
     width: 320px;
     height: 350px;
   }
@@ -1262,8 +1262,8 @@
     font-weight: 300;
     line-height: 108%;
   }
-  .main-poster:after {
-    content: none;
+  .main-poster-after {
+    display: none;
   }
   .poster-bottom {
     margin-top: 32px;
@@ -2083,8 +2083,8 @@
     max-width: calc(100% - 30px);
   }
 
-  .community-poster:after {
-    content: none;
+  .community-poster-after {
+    display: none;
   }
   .community-poster-content {
     padding-top: 133px;
@@ -2124,6 +2124,11 @@
     margin-left: 0;
     margin-top: 24px;
   }
+
+  //animation
+  .animated {
+    animation-delay: 0s!important;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -2131,3 +2136,4 @@
     max-width: 1380px;
   }
 }
+
