@@ -129,11 +129,25 @@ $('#portfolioTabs1 .nav-link, #portfolioTabs2 .nav-link').on('click', function (
   $('#portfolioTabs1 .nav-link[data-bs-target="' + tabId + '"], #portfolioTabs2 .nav-link[data-bs-target="' + tabId + '"]').tab('show');
 });
 
+//добавление класса к блоку когда его верхняя часть наполовину экрана
+document.addEventListener('DOMContentLoaded', () => {
+  const blocks = document.querySelectorAll('.scroll-block');
 
+  const observerOptions = {
+    root: null, // Отслеживание в контексте окна браузера
+    rootMargin: '0px',
+    threshold: 0.3 // Порог, при котором запускается callback (30% видимости)
+  };
 
+  const observerCallback = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('middle-screen');
+      }
+    });
+  };
 
+  const observer = new IntersectionObserver(observerCallback, observerOptions);
 
-
-
-
-
+  blocks.forEach(block => observer.observe(block));
+});
