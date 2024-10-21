@@ -103,6 +103,7 @@ button {
   font-weight: 400;
   line-height: 30px; /* 120% */
   border-radius: 0;
+  transition: 0.2s ease;
 }
 .btn-outline {
   border: 2px solid #62b6f3;
@@ -111,7 +112,7 @@ button {
   text-decoration-line: underline;
   &:hover, &:active {
     border: 2px solid #62b6f3!important;
-    background: transparent!important;
+    background: #62b6f3!important;
     color: #FFF!important;
     text-decoration-line: underline;
   }

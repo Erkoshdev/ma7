@@ -17,29 +17,32 @@ let storySlider = new Swiper(".stories-slider", {
     clickable: true,
     el: '.stories-slider-pagination',
   },
+  navigation: {
+    nextEl: '.stories-slider-next',
+  },
   grid: {
     rows: 3,
     fill: 'row',
   },
   breakpoints: {
     768: {
-      slidesPerView: 'auto',
+      slidesPerView: 2,
       grid: {
         rows: 1
       }
     }
   }
 });
-document.addEventListener("DOMContentLoaded", function() {
-  if(window.innerWidth > 767) {
-    const container = document.querySelector('.stories-slider'); // Получаем контейнер
-    const containerRect = container.getBoundingClientRect(); // Получаем размеры и положение контейнера
-
-    const distanceToRightEdge = window.innerWidth - containerRect.right; // Расчет расстояния от правой границы контейнера до края экрана
-
-    container.style.marginRight = -distanceToRightEdge + 'px';
-  }
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   if(window.innerWidth > 767) {
+//     const container = document.querySelector('.stories-slider'); // Получаем контейнер
+//     const containerRect = container.getBoundingClientRect(); // Получаем размеры и положение контейнера
+//
+//     const distanceToRightEdge = window.innerWidth - containerRect.right; // Расчет расстояния от правой границы контейнера до края экрана
+//
+//     container.style.marginRight = -distanceToRightEdge + 'px';
+//   }
+// });
 
 //animations
 jQuery(function($) {
