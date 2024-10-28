@@ -109,6 +109,9 @@
   .stories-media {
     height: 335px;
   }
+  .stories-slider-next, .stories-slider-prev {
+    height: 335px;
+  }
   .stories-info small {
     font-size: 14px;
     line-height: 24px;
@@ -322,7 +325,7 @@
   .companies-slider-wrapper {
     margin-top: 60px;
   }
-  .company-slider-next {
+  .company-slider-next, .company-slider-prev {
     width: 75px;
   }
   .company-slide-caption {
@@ -440,10 +443,19 @@
   .stories-slider-wrap {
     margin-top: 40px;
   }
+  .stories-slider {
+    width: 100%;
+  }
+  .stories-slider-navigation {
+    display: none;
+  }
   .stories-card {
     width: 425px;
   }
   .stories-media {
+    height: 290px;
+  }
+  .stories-slider-next, .stories-slider-prev {
     height: 290px;
   }
   .stories-info {
@@ -730,7 +742,7 @@
   .companies-slider-wrapper {
     margin-top: 40px;
   }
-  .company-slider-next {
+  .company-slider-next, .company-slider-prev {
     width: 60px;
   }
   .company-slide-caption b {
@@ -871,6 +883,9 @@
   }
   .stories-media {
     height: 230px;
+  }
+  .stories-slider {
+    width: 100%;
   }
   .stories-info small {
     font-size: 12px;
@@ -1280,7 +1295,7 @@
   }
   .main-poster {
     padding-bottom: 0;
-    background: url("../img/main/mountain-sm.png") no-repeat center/cover;
+    background: url("../img/main/mountain-white.jpg") no-repeat center/cover;
   }
   .main-poster-content {
     padding: 70px 0 40px;
@@ -1375,7 +1390,7 @@
     margin-top: 80px;
     padding: 0 16px;
   }
-  .company-slider-next {
+  .company-slider-next, .company-slider-prev {
     display: none;
   }
   .companies-slider .swiper-wrapper {
@@ -1636,6 +1651,9 @@
   .stories-media {
     height: 240px;
   }
+  .stories-slider-next, .stories-slider-prev {
+    height: 240px;
+  }
   .stories-info {
     top: 16px;
     height: 16px;
@@ -1666,15 +1684,29 @@
   .stories-slider-wrap {
     margin-top: 0;
     margin-right: 0;
+    flex-direction: column;
+  }
+  .stories-slider-navigation {
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .stories-slider-next, .stories-slider-prev {
+    width: initial;
+    height: 40px;
+    background: #62B6F3;
+    i {
+      width: 11px;
+      height: 18px;
+    }
   }
   .stories-card {
     margin-top: 40px!important;
   }
   .stories-slider {
     width: 100%;
-  }
-  .stories-slider-next {
-    display: none;
   }
   .pre-footer-content {
     padding: 40px 0;
@@ -2170,3 +2202,12 @@
   }
 }
 
+@media (hover: hover) {
+  .company-slider-prev:hover:not(.swiper-button-disabled) {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .stories-slider-next:hover, .stories-slider-prev:hover {
+    background: var(--1c, #62B6F3);
+  }
+}

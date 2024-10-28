@@ -2,8 +2,8 @@
 if($(window).width() > 767) {
   let companySlider = new Swiper(".companies-slider", {
     slidesPerView: 3,
-    loop: true,
     navigation: {
+      prevEl: '.company-slider-prev',
       nextEl: '.company-slider-next',
     },
   });
@@ -18,6 +18,7 @@ let storySlider = new Swiper(".stories-slider", {
     el: '.stories-slider-pagination',
   },
   navigation: {
+    prevEl: '.stories-slider-prev',
     nextEl: '.stories-slider-next',
   },
   grid: {

@@ -13,6 +13,12 @@
   width: 22px;
   height: 37px;
 }
+.chevron-left {
+  background: url("../img/icon/chevron-right.svg");
+  width: 22px;
+  height: 37px;
+  transform: rotate(180deg);
+}
 .cursor {
   background: url("../img/icon/cursor.svg");
   width: 75px;
