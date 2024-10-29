@@ -392,10 +392,10 @@ footer.light-blue {
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--1c, #62B6F3);
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 120% */
+  line-height: 120%; /* 120% */
   display: flex;
   align-items: center;
   gap: 8px;
@@ -642,6 +642,7 @@ footer.light-blue {
     text-transform: uppercase;
     padding-right: 90px;
     overflow-wrap: break-word;
+    word-break: break-word;
   }
   img {
     position: absolute;
