@@ -42,7 +42,8 @@ function libsJs() {
   return src([
     'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
     'node_modules/jquery/dist/jquery.js',
-    'node_modules/swiper/swiper-bundle.js'
+    'node_modules/swiper/swiper-bundle.js',
+    'node_modules/jquery-mask-plugin/dist/jquery.mask.min.js',
   ])
       .pipe(concat('libs.min.js'))
       .pipe(dest('app/js'))

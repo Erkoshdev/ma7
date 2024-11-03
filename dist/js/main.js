@@ -165,3 +165,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   blocks.forEach(block => observer.observe(block));
 });
+
+
+//auto resize textarea
+const textarea = document.getElementById('autoExpandTextarea');
+
+textarea.addEventListener('input', function () {
+  this.style.height = 'auto';
+  this.style.height = `${this.scrollHeight}px`;
+});
+
+
+//phone mask
+$(document).ready(function() {
+  $('.phone-mask').mask('+7(000)000-00-00');
+})

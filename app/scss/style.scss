@@ -2090,11 +2090,228 @@ hr {
     height: 19px;
   }
 }
-
 .community-pre-footer {
   background: url("../img/main/community-bg.png") no-repeat center/cover;
 }
 //community end
+
+
+//feedback
+.feedback {
+  padding: 80px 0
+}
+.feedback-content {
+  width: 480px;
+  margin: 0 auto;
+}
+.backlink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  &:before {
+    content: '';
+    background: url("../img/icon/arrow-left.svg") no-repeat center/contain;
+    width: 24px;
+    height: 25px;
+  }
+}
+.feedback-title {
+  margin-top: 16px;
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.form-item {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-item + .form-item {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.form-item-title {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+}
+.input-form {
+  height: 56px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.10);
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  &:focus {
+    padding: 15px;
+    border: 1px solid var(--1c, #62B6F3);
+    outline: none;
+  }
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.textarea-form {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.10);
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  resize: none;
+  &:focus {
+    padding: 15px;
+    border: 1px solid var(--1c, #62B6F3);
+    outline: none;
+  }
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.30);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.textarea-form::-webkit-scrollbar {
+  width: 7px;
+}
+.textarea-form::-webkit-scrollbar-thumb {
+  background: var(--1c, #62B6F3);
+}
+.textarea-form::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, .1);
+}
+.file-upload {
+  position: relative;
+  overflow: hidden;
+  input {
+    position: absolute;
+    left: -132px;
+    top: 0;
+    height: 100%;
+    width: calc(100% + 132px);
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+  }
+}
+.file-upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid var(--1c, #62B6F3);
+  padding: 23px;
+  span {
+    color: var(--1c, #62B6F3);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.feedback-btn {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  background: var(--1c, #62B6F3);
+  border: none;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+  margin-top: 40px;
+}
+.uploaded-files {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.uploaded-file {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.10);
+  span {
+    color: var(--1c, #62B6F3);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.delete-uploaded-file {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+}
+.feedback-success {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  width: 480px;
+  margin: 0 auto;
+  h6 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.56);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 16px;
+  }
+  .feedback-btn {
+    margin-top: 0;
+  }
+}
+
+
+
+
+
 
 
 @import "media";

@@ -22,6 +22,7 @@
   "dependencies": {
     "bootstrap": "^5.0.1",
     "jquery": "^3.7.0",
+    "jquery-mask-plugin": "^1.14.16",
     "swiper": "8.4.7"
   }
 }

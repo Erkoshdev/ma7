@@ -2192,6 +2192,17 @@
   .animated {
     animation-delay: 0s!important;
   }
+
+
+  .feedback-content, .feedback-success {
+    width: 100%;
+  }
+  .feedback {
+    padding: 30px 0;
+  }
+  .feedback-title {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 1400px) {
