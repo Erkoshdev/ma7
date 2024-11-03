@@ -666,6 +666,21 @@
     font-size: 50px;
     top: calc(50% - 100px);
   }
+  .ceo-img {
+    width: 350px;
+    height: 470px;
+  }
+  .ceo-img-caption {
+    gap: 10px;
+  }
+  .ceo-caption {
+    margin-left: 40px;
+  }
+  .ceo-caption p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 130%;
+  }
 }
 
 //md
@@ -1157,6 +1172,33 @@
 
   .events-list {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .ceo-img {
+    width: 280px;
+    height: 375px;
+  }
+  .ceo-img-caption {
+    padding: 15px;
+    h6 {
+      font-size: 20px;
+      line-height: 120%;
+    }
+    p {
+      font-size: 16px;
+      line-height: 130%;
+    }
+  }
+  .ceo-caption h2 {
+    font-size: 40px;
+    line-height: 130%;
+  }
+  .ceo-caption p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .ceo-caption p + p {
+    margin-top: 10px;
   }
 }
 
@@ -2200,6 +2242,24 @@
   }
   .feedback-title {
     font-size: 24px;
+  }
+
+  .ceo {
+    padding: 40px 0;
+  }
+  .ceo-content {
+    display: block;
+  }
+  .ceo-img {
+    width: 100%;
+    height: 400px;
+  }
+  .ceo-caption {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .ceo-caption .btn {
+    width: 100%;
   }
 }
 

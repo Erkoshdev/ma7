@@ -2314,7 +2314,79 @@ hr {
     margin-top: 0;
   }
 }
+//feedback end
 
+
+//ceo
+.ceo {
+  padding: 70px 0;
+}
+.ceo-content {
+  display: flex;
+  align-items: center;
+}
+.ceo-img {
+  width: 480px;
+  height: 640px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.ceo-img-caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  h6 {
+    color: var(--openai-com-nero, #FFF);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 42px */
+  }
+  p {
+    color: var(--openai-com-nero, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 30px */
+  }
+}
+.ceo-caption {
+  flex: 1;
+  margin-left: 100px;
+  h2 {
+    color: var(--openai-com-nero, #FFF);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px; /* 117.188% */
+    letter-spacing: 1.08px;
+  }
+  p {
+    margin-top: 40px;
+    color: var(--openai-com-nero, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+  }
+  p + p {
+    margin-top: 20px;
+  }
+  .btn {
+    margin-top: 40px;
+  }
+}
+//ceo end
 
 
 

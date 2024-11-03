@@ -112,28 +112,28 @@ $('.companies-show-more').click(function (){
 
 
 //club-members slider
-if($(window).width() > 767) {
-  let clubMembersSlider = new Swiper(".club-members-slider", {
-    slidesPerView: 3,
-    loop: true,
-    navigation: {
-      nextEl: '.club-members-slider-next',
-    },
-  });
-}
+// if($(window).width() > 767) {
+//   let clubMembersSlider = new Swiper(".club-members-slider", {
+//     slidesPerView: 3,
+//     loop: true,
+//     navigation: {
+//       nextEl: '.club-members-slider-next',
+//     },
+//   });
+// }
 
 
 //club members show more on mobile
-$('.club-members-show-more').click(function (){
-  const wrapper = $('.club-members-slider');
-  const btnInnerText = $('.club-members-show-more').find('span')[0];
-  wrapper.toggleClass('show-all');
-  if(wrapper.hasClass('show-all')) {
-    btnInnerText.innerHTML = 'Hide'
-  } else {
-    btnInnerText.innerHTML = 'See more'
-  }
-})
+// $('.club-members-show-more').click(function (){
+//   const wrapper = $('.club-members-slider');
+//   const btnInnerText = $('.club-members-show-more').find('span')[0];
+//   wrapper.toggleClass('show-all');
+//   if(wrapper.hasClass('show-all')) {
+//     btnInnerText.innerHTML = 'Hide'
+//   } else {
+//     btnInnerText.innerHTML = 'See more'
+//   }
+// })
 
 
 //Sync portfolioTabs1 and portfolioTabs2
