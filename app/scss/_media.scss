@@ -75,10 +75,6 @@
     font-size: 20px;
   }
 
-  .angels-bg-text p {
-    font-size: 28px;
-    line-height: 33px;
-  }
   .angels-item b {
     font-size: 26px;
     line-height: 31px;
@@ -194,10 +190,7 @@
     font-size: 80px;
     line-height: 120%;
   }
-  .angel-poster-bg-text p {
-    font-size: 29px;
-    line-height: 120%;
-  }
+
 
   .collective-investment-title {
     font-size: 55px;
@@ -273,7 +266,10 @@
 //lg
 @media (max-width: 1199px) {
   .header-nav {
-    gap: 24px;
+    gap: 18px;
+  }
+  .header-nav-link {
+    font-size: 14px;
   }
   .main-poster-title {
     font-size: 46px;
@@ -377,10 +373,6 @@
   }
   .angels .section-logo img {
     width: 250px;
-  }
-  .angels-bg-text p {
-    font-size: 24px;
-    line-height: 28px;
   }
   .angels-list {
     gap: 40px;
@@ -623,7 +615,7 @@
   }
 
   .angel-pre-footer-caption p {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .portfolio-poster-content {
@@ -688,11 +680,11 @@
     }
   }
   .header-nav {
-    gap: 20px;
+    gap: 15px;
   }
   .header-nav-link {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 17px;
     font-weight: 400;
   }
   .main-poster-title {
@@ -830,8 +822,7 @@
     width: 170px;
   }
   .angels-bg-text p {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 12px;
   }
   .angels-list {
     gap: 30px;
@@ -1018,6 +1009,9 @@
   .angel-poster-title {
     font-size: 60px;
   }
+  .angel-poster-bg-text {
+    top: 47%;
+  }
   .angel-poster-bg-text p {
     font-size: 17px;
     line-height: 160%;
@@ -1114,7 +1108,7 @@
   }
 
   .angel-pre-footer-caption p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .portfolio-numbers-list {
@@ -1498,14 +1492,14 @@
   }
   .startup-item h6 {
     order: 2;
-    margin-top: 24px;
-    font-size: 32px;
+    margin-top: 20px;
+    font-size: 120%;
     padding-right: 0;
   }
   .startup-item p {
     order: 3;
     margin-top: 120px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .team-content {
@@ -1548,15 +1542,18 @@
     display: block;
   }
   .angels-bg-text {
-    top: 14%;
+    top: 16%;
   }
   .angels-bg-text .container {
     flex-direction: column;
     gap: 120px;
   }
   .angels-bg-text p {
-    font-size: 32px;
-    line-height: 130%; /* 41.6px */
+    max-width: 100%;
+    font-size: 24px;
+    &:last-child {
+      text-align: left;
+    }
   }
   .angels .section-logo img {
     width: 215px;
@@ -1861,7 +1858,8 @@
     height: 800px;
   }
   .angel-poster-caption .container {
-    padding: 72px 16px 40px;
+    padding-top: 72px;
+    padding-bottom: 40px;
   }
   .angel-poster-title {
     font-size: 24px;
@@ -1875,14 +1873,14 @@
     height: auto;
   }
   .angel-poster-bg-text {
-    top: 22%;
+    top: 24%;
   }
   .angel-poster-bg-text .container {
     flex-direction: column;
     gap: 112px;
   }
   .angel-poster-bg-text p {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 130%; /* 41.6px */
   }
 
@@ -2205,9 +2203,10 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1380px;
+    padding: 0 30px;
   }
 }
 
