@@ -228,7 +228,7 @@
 
 
   .portfolio-number {
-    height: 280px;
+    min-height: 280px;
   }
   .portfolio-number-primary p {
     font-size: 60px;
@@ -333,16 +333,17 @@
   }
   .startup-item {
     height: 400px;
-    padding: 18px 34px 18px 18px;
+    padding: 18px;
   }
   .startup-item img {
-    top: 18px;
-    right: 18px;
-    width: 60px;
+    top: 15px;
+    right: 15px;
+    width: 45px;
   }
   .startup-item h6 {
-    padding-right: 50px;
-    font-size: 20px;
+    padding-right: 55px;
+    font-size: 18px;
+    font-weight: 500;
   }
   .startup-item p {
     font-size: 18px;
@@ -636,7 +637,7 @@
     font-size: 12px;
   }
   .portfolio-number {
-    height: 230px;
+    min-height: 230px;
   }
   .portfolio-numbers {
     margin-top: -120px;
@@ -686,10 +687,10 @@
 //md
 @media (max-width: 991px) {
   .header-logo img {
-    width: 150px;
+    width: 130px;
   }
   .lang {
-    margin-left: 25px;
+    margin-left: 15px;
     span {
       display: none;
     }
@@ -698,7 +699,7 @@
     gap: 15px;
   }
   .header-nav-link {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 17px;
     font-weight: 400;
   }
@@ -803,21 +804,24 @@
     gap: 15px;
   }
   .startup-item {
-    padding: 16px 25px 16px 16px;
+    padding: 16px;
     height: 300px;
   }
   .startup-item img {
     width: 40px;
-    right: 15px;
-    top: 15px;
+    position: static;
+    order: 1;
   }
   .startup-item h6 {
     padding-right: 30px;
     font-size: 16px;
-    font-weight: 500;
+    order: 2;
+    margin-top: 15px;
+    padding-right: 0;
   }
   .startup-item p {
     font-size: 15px;
+    order: 3;
   }
   .team-content h2 {
     font-size: 45px;
@@ -840,7 +844,7 @@
     font-size: 12px;
   }
   .angels-list {
-    gap: 30px;
+    gap: 15px;
   }
   .angels-item {
     b {
@@ -849,12 +853,16 @@
     }
     p {
       margin-top: 7px;
-      font-size: 14px;
-      line-height: 18px;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: -0.4px;
     }
   }
+  .angels-content {
+    padding-bottom: 20px;
+  }
   .angels-bottom {
-    margin-top: 30px;
+    margin-top: 15px;
     p {
       font-size: 24px;
       line-height: 28px;
@@ -1131,6 +1139,7 @@
   }
   .portfolio-number {
     padding: 15px 20px;
+    min-height: 200px;
   }
   .portfolio-number-primary {
     position: relative;
@@ -1138,7 +1147,7 @@
     left: 0;
   }
   .portfolio-number-primary p {
-    font-size: 40px;
+    font-size: 36px;
   }
   .portfolio-number-primary small {
     position: absolute;
@@ -1147,11 +1156,11 @@
     left: 80px;
   }
   .portfolio-number-secondary {
-    font-size: 20px;
+    font-size: 16px;
   }
   .portfolio-number-desc {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     line-height: 120%;
   }
 
@@ -1199,6 +1208,11 @@
   }
   .ceo-caption p + p {
     margin-top: 10px;
+  }
+  .stories-slider-pagination .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    margin: 0 5px!important;
   }
 }
 
@@ -2146,8 +2160,8 @@
     left: initial;
   }
   .portfolio-number-primary p {
-    font-size: 80px;
-    line-height: 80px; /* 100% */
+    font-size: 60px;
+    line-height: 60px; /* 100% */
     letter-spacing: -5.6px;
   }
   .portfolio-number-primary small {
@@ -2156,7 +2170,8 @@
     left: 20px;
   }
   .portfolio-number-secondary {
-    font-size: 32px;
+    font-size: 26px;
+    padding-right: 100px;
   }
   .portfolio-number-desc {
     font-size: 18px;
