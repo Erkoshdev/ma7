@@ -629,7 +629,7 @@ footer.light-blue {
   flex-direction: column;
   background: var(--1a, #002B55);
   position: relative;
-  height: 538px;
+  min-height: 538px;
   h6 {
     color: #FFF;
     font-size: 24px;
@@ -641,6 +641,7 @@ footer.light-blue {
     padding-right: 70px;
     overflow-wrap: break-word;
     word-break: break-word;
+    margin-bottom: 30px;
   }
   img {
     position: absolute;
@@ -685,6 +686,7 @@ footer.light-blue {
   }
   img {
     height: 360px;
+    width: 100%;
     flex-shrink: 0;
     object-fit: cover;
   }
