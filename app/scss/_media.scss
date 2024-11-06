@@ -471,8 +471,8 @@
     height: 50px;
   }
   .pre-footer-caption p {
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height: 44px;
   }
   .footer-social, .footer-contact {
     padding: 18px 0;
@@ -699,7 +699,7 @@
     }
   }
   .header-nav {
-    gap: 15px;
+    gap: 13px;
   }
   .header-nav-link {
     font-size: 12px;
@@ -707,8 +707,8 @@
     font-weight: 400;
   }
   .main-poster-title {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 32px;
+    line-height: 38px;
     top: calc(50% - 115px);
   }
   .main-poster-after {
@@ -932,8 +932,8 @@
     margin-top: 150px;
   }
   .pre-footer-caption p {
-    font-size: 34px;
-    line-height: 39px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .footer-social-item {
     font-size: 20px;
@@ -1035,10 +1035,14 @@
     font-size: 60px;
   }
   .angel-poster-bg-text {
-    top: 47%;
+    top: 42%;
+    .container {
+      flex-direction: column;
+      gap: 60px;
+    }
   }
   .angel-poster-bg-text p {
-    font-size: 17px;
+    font-size: 28px;
     line-height: 160%;
   }
 
@@ -1782,7 +1786,7 @@
     display: block;
   }
   .pre-footer-caption p {
-    font-size: 48px;
+    font-size: 34px;
     line-height: 112%;
   }
   .pre-footer-caption .btn {
