@@ -307,9 +307,16 @@ footer.light-blue {
 .about-founder {
   margin-top: -1px;
   background: url("../img/main/about-founder.png") no-repeat center/cover;
+  min-height: 62vw;
+  display: flex;
+  align-items: center;
 }
 .about-founder-content {
   padding: 94px 748px 46px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   p {
     color: var(--openai-com-nero, #FFF);
     font-size: 24px;
@@ -340,7 +347,7 @@ footer.light-blue {
     line-height: 24px; /* 133.333% */
   }
   .btn {
-    margin-top: 269px;
+    margin-top: 48px;
   }
 }
 
