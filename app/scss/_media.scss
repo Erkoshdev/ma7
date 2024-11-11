@@ -2302,4 +2302,15 @@
   .stories-slider-next:hover, .stories-slider-prev:hover {
     background: var(--1c, #62B6F3);
   }
+  .portfolio-item:hover {
+    background: rgba(98, 182, 243, 0.5);
+    .portfolio-item-img {
+      transform: scale(1.02);
+    }
+  }
+  .company-slide:hover {
+    .company-slide-media:before {
+      opacity: 1;
+    }
+  }
 }
